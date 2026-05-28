@@ -1,0 +1,11 @@
+/*
+  Magma driver corresponding to ghrs_search.py.
+
+  It performs the small finite-field GHRS search used for the parameter table:
+  admissible multipliers are found, GHRS generator matrices are constructed,
+  and relative Hamming distances are computed by rank.
+*/
+
+load "ghrs_quantum_certificates.magma";
+
+SearchSmallGHRS();
